@@ -26,6 +26,8 @@ end
 # method called now_serving -> puts the next person in line and them remove them from the front 
 # if there is no one in line -> puts "There is nobody waiting to be served!"
 
+
+
 def now_serving(katz_deli)
   if katz_deli == []
     puts "There is nobody waiting to be served!"
